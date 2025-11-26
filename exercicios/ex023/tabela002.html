@@ -34,6 +34,14 @@
             background-color:  gray;
             color: white;
         }
+        
+        tbody > tr:nth-child(odd) {
+            background-color: blue;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: yellow;
+        }
 
         td.num {
             text-align: right;
@@ -46,17 +54,17 @@
         <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td id="cor">São Paulo</td>
+                <td>São Paulo</td>
                 <td class="num">46 081 801</td>
             </tr>
             <tr>
-                <td id="cor2">Minas Gerais</td>
+                <td>Minas Gerais</td>
                 <td class="num">21 393 441</td>
             </tr>
             <tr>
@@ -162,7 +170,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habilantes</th>
+                <th scope="row">Total de Habilantes</th>
                 <td class="num"><strong>213 421 037</strong></td>
             </tr>
         </tfoot>
