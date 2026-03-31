@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: ;
+    background-color: gray;
     color: white;
     padding: 10px;
 
@@ -25,12 +25,13 @@ header {
 }
 
 header > h1 {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     flex: 0 0 200px;
+    text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.404);
 }
 
 header > nav {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     
     display: flex;
     flex-flow: row nowrap;
